@@ -1,0 +1,37 @@
+# Compiled Java files
+*.class
+
+# Logs
+*.log
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# macOS
+.DS_Store
+
+# Linux temporary files
+*~
+
+# Maven
+target/
+
+# Gradle
+build/
+.gradle/
+
+# Environment
+.env
