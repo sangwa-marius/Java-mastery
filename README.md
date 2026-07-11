@@ -24,9 +24,12 @@ NOTES/
 
 ## Progress
 
-- [ ] Introduction
-- [ ] Variables
-- [ ] Data Types
-- [ ] Operators
-- [ ] Input
+- [x] Introduction
+- [x] Variables
+- [x] Data Types
+- [x] Operators
+- [x] Input
+- [ ] TypeCasting
+- [ ] Strings
+- [ ] Conditionals
 - ...
