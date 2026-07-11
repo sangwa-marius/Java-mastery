@@ -4,7 +4,7 @@ A complete Java learning journey from beginner to advanced.
 
 ## Goals
 
-- [####         ] Learn Java fundamentals
+- Learn Java fundamentals
 - Master Object-Oriented Programming
 - Build real-world projects
 - Learn JDBC
