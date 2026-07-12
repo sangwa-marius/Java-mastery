@@ -29,7 +29,7 @@ NOTES/
 - [x] Data Types
 - [x] Operators
 - [x] Input
-- [ ] TypeCasting
+- [x] TypeCasting
 - [ ] Strings
 - [ ] Conditionals
 - ...
