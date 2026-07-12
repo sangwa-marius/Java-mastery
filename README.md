@@ -30,6 +30,6 @@ NOTES/
 - [x] Operators
 - [x] Input
 - [x] TypeCasting
-- [ ] Strings
+- [x] Strings
 - [ ] Conditionals
 - ...
