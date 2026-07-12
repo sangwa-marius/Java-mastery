@@ -21,6 +21,11 @@ public class GradeConverter{
         System.out.println("Whole Score (int) : " + wholeScore);
         System.out.println("Long Score (long) : " + longScore);
         System.out.println("Character Value : " + matchingChar);
+        System.out.println();
+        System.out.println("-------------------------------");
 
+
+        input.close();
     }
+
 }

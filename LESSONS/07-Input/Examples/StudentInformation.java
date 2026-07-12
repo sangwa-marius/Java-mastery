@@ -26,5 +26,7 @@ public class StudentInformation{
         System.out.println("Height: " + Height);
         System.out.println("Gender: " + gender);
 
+
+        input.close();
     }
 }
