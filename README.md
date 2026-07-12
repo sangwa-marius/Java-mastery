@@ -31,5 +31,10 @@ NOTES/
 - [x] Input
 - [x] TypeCasting
 - [x] Strings
-- [ ] Conditionals
+- [x] Conditionals
+- [ ] Loops
+- [ ] Methods
+- [ ] Arrays
+- [ ] MultidimensionalArrays
+- [ ] OOP
 - ...
