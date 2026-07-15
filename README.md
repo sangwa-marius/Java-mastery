@@ -34,7 +34,7 @@ NOTES/
 - [x] Conditionals
 - [x] Loops
 - [x] Methods
-- [ ] Arrays
+- [x] Arrays
 - [ ] MultidimensionalArrays
 - [ ] OOP
 - ...
