@@ -32,8 +32,8 @@ NOTES/
 - [x] TypeCasting
 - [x] Strings
 - [x] Conditionals
-- [ ] Loops
-- [ ] Methods
+- [x] Loops
+- [x] Methods
 - [ ] Arrays
 - [ ] MultidimensionalArrays
 - [ ] OOP
