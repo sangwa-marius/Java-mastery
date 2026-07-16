@@ -38,6 +38,8 @@ public class JaggedArrays {
             System.out.println();
          
         }
+
+        input.close();
     }
 
     
