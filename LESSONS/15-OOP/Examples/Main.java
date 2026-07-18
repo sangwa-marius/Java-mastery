@@ -4,13 +4,12 @@ public class Main {
 
         BankAccount account = new BankAccount();
         Car car = new Car();
-        Book book1 = new  Book("Lord the provider","Sangwa marius",23,22);
+        Book book1 = new Book("Lord the provider", "Sangwa marius", 23, 22);
         Book book2 = new Book(
-            "Seven steps to succes",
-            "Rechard bont",
-            34,
-            34
-        );
+                "Seven steps to succes",
+                "Rechard bont",
+                34,
+                34);
 
         account.accountNumber = "ACC-1001";
         account.ownerName = "John Doe";
