@@ -11,11 +11,11 @@ public class BankAccount {
         System.out.println("Balance: $" + balance);
     }
 
-    public void deposit(double amount){
+    public void deposit(double amount) {
         balance += amount;
     }
 
-    public void withdraw(double amount){
+    public void withdraw(double amount) {
         balance -= amount;
     }
 }
