@@ -26,6 +26,13 @@ public class Main {
         book1.displayInfo();
         book2.displayInfo();
 
+
+        Product prod1 = new Product("Potatoes", 200, 56);
+        prod1.displayInfo();
+        prod1.setPrice(99);
+        prod1.sellQuantity(8);
+        prod1.displayInfo();
+
     }
 
 }
