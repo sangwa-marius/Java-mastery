@@ -6,27 +6,28 @@ public class LibraryBook {
 
     private static int totalBooks;
 
-    public LibraryBook(String title, String author){
+    public LibraryBook(String title, String author) {
         this.title = title;
         this.author = author;
         totalBooks++;
 
     }
 
-    public void borrowBook(){
+    public void borrowBook() {
         available = false;
     }
-    public void returnBook(){
+
+    public void returnBook() {
         available = true;
     }
 
-    public void displayInfo(){
-        System.out.println("\nTitle   : "+title);
-        System.out.println("Author  : "+author);
-        System.out.println("Status  : "+(available?"Available":"Borrowed"));
+    public void displayInfo() {
+        System.out.println("\nTitle   : " + title);
+        System.out.println("Author  : " + author);
+        System.out.println("Status  : " + (available ? "Available" : "Borrowed"));
     }
 
-    public static void displayTotalBooks(){
-        System.out.println("Total books: "+totalBooks);
+    public static void displayTotalBooks() {
+        System.out.println("Total books: " + totalBooks);
     }
 }
