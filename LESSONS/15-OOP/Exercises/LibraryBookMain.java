@@ -1,4 +1,4 @@
-public class Main {
+public class LibraryBookMain {
     public static void main(String[] args){
 
         LibraryBook.displayTotalBooks();
