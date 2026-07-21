@@ -48,7 +48,8 @@ public class MatrixInput {
 
     }
 
-    public static void readMarksToMatrix(Scanner input, double[][] studentMarks , String[] studentNames, String[] subjectNames) {
+    public static void readMarksToMatrix(Scanner input, double[][] studentMarks, String[] studentNames,
+            String[] subjectNames) {
 
         for (int row = 0; row < studentMarks.length; row++) {
             System.out.println("\nMarks for " + studentNames[row]);
