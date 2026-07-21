@@ -27,20 +27,18 @@ public class JaggedArrays {
             }
             System.out.println();
         }
-    
 
-      for (int row = 0; row < marks.length; row++) {
-          System.out.printf("Marks for Student %d: ", (row + 1));
+        for (int row = 0; row < marks.length; row++) {
+            System.out.printf("Marks for Student %d: ", (row + 1));
             for (int column = 0; column < marks[row].length; column++) {
-                System.out.print(marks[row][column]+" ");
-            
+                System.out.print(marks[row][column] + " ");
+
             }
             System.out.println();
-         
+
         }
 
         input.close();
     }
 
-    
 }

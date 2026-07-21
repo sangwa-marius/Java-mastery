@@ -167,7 +167,7 @@ public class StudentManagementSystem {
         for (int i = 0; i < studentAverages.length; i++) {
             if (studentAverages[i] > maxAverage)
                 maxAverage = studentAverages[i];
-                maxAverageIndex = i;
+            maxAverageIndex = i;
         }
         String bestStudent = studentNames[maxAverageIndex];
         return bestStudent;
