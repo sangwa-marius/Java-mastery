@@ -21,15 +21,15 @@ Alice found as Student #1.
 import java.util.Scanner;
 
 public class StudentSearch {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int numbersOfStudents;
 
-        while (true){
+        while (true) {
             System.out.print("Enter number of Students: ");
             numbersOfStudents = input.nextInt();
 
-            if (numbersOfStudents > 0){
+            if (numbersOfStudents > 0) {
                 break;
             }
             System.out.println("Enter a number greater than 0");
@@ -39,8 +39,8 @@ public class StudentSearch {
 
         String[] namesOfStudents = new String[numbersOfStudents];
 
-        for (int i =0; i < namesOfStudents.length; i++){
-            System.out.print("Enter name " +(i+1) + ": ");
+        for (int i = 0; i < namesOfStudents.length; i++) {
+            System.out.print("Enter name " + (i + 1) + ": ");
             namesOfStudents[i] = input.nextLine();
         }
 
@@ -50,18 +50,18 @@ public class StudentSearch {
         String target = input.nextLine();
         int position = -1;
 
-        for ( int i =0; i<namesOfStudents.length; i++){
-            if (namesOfStudents[i].equals(target)){
-                position = i+1;
+        for (int i = 0; i < namesOfStudents.length; i++) {
+            if (namesOfStudents[i].equals(target)) {
+                position = i + 1;
             }
         }
 
         System.out.println();
 
-        if(position == -1){
+        if (position == -1) {
             System.out.println("Student not found");
-        }else{
-            System.out.println(target + " found as Student #" +position);
+        } else {
+            System.out.println(target + " found as Student #" + position);
         }
 
         input.close();
