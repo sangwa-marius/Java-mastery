@@ -14,7 +14,7 @@ Then add one extra line with a motivational quote.
 */
 public class AboutMe {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         System.out.println("Name\t:Sangwa Marius");
         System.out.println("Age\t:18");
         System.out.println("Country\t:Rwanda");
