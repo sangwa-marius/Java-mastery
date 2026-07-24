@@ -19,6 +19,14 @@ public class Main {
 
         Refrigerator ref1 = new Refrigerator("SamSung", 85, 15);
         ref1.displayInfo();
+
+        CreditCardPayment payment1 = new CreditCardPayment();
+        MobilePayment payment2 = new MobilePayment();
+        BankTransferPayment payment3 = new BankTransferPayment();
+
+        payment1.processPayment();
+        payment2.processPayment();
+        payment3.processPayment();
         
 
         motor1.displayInfo();
