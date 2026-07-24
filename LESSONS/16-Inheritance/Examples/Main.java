@@ -13,6 +13,15 @@ public class Main {
         showBzToday.title = "ShowBs today";
         showBzToday.year = "2024";
 
+        MotorCycle motor1 = new MotorCycle();
+        motor1.brand  = "Mahindra";
+        motor1.year = "2022";
+        
+
+        motor1.displayInfo();
+        motor1.statEngine();
+        motor1.popWheelie();
+
         rwandanSong.displayInfo();
         rwandanSong.singAlong();
         
