@@ -35,6 +35,11 @@ NOTES/
 - [x] Loops
 - [x] Methods
 - [x] Arrays
-- [ ] MultidimensionalArrays
-- [ ] OOP
+- [x] MultidimensionalArrays
+- [x] OOP
+- [x] Inheritance
+- [ ] Polymorphism
+- [ ] Abstraction
+- [ ] Interfaces
+- [ ] ExceptionHandling 
 - ...
