@@ -16,6 +16,9 @@ public class Main {
         MotorCycle motor1 = new MotorCycle();
         motor1.brand  = "Mahindra";
         motor1.year = "2022";
+
+        Refrigerator ref1 = new Refrigerator("SamSung", 85, 15);
+        ref1.displayInfo();
         
 
         motor1.displayInfo();
