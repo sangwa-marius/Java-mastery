@@ -8,11 +8,11 @@ public class Main {
             new InspectionRobot(3, "Marius")
         };
 
-        // for(Robot robot : robots){
-        //     robot.displayInfo();
-        //     robot.performTask();
-        //     System.out.println();
-        // }
+        for(Robot robot : robots){
+            robot.displayInfo();
+            robot.performTask();
+            System.out.println();
+        }
 
         Rechargeable[] rechargeables = {
             new DeliveryRobot(1, "Marius"),
