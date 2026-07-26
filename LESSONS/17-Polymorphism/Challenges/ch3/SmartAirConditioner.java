@@ -17,12 +17,12 @@ public class SmartAirConditioner implements EnergyMonitor, Switchable, WiFiEnabl
     }
 
     @Override
-    public void disconnect(){
+    public void disconnect() {
         System.out.println("Turned off smart air conditioner");
     }
 
     @Override
-    public void  turnOff(){
+    public void turnOff() {
         System.out.println("Smart air conditioner turned off");
     }
 }
