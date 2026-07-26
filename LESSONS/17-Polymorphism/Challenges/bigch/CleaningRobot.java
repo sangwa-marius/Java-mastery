@@ -13,7 +13,7 @@ public class CleaningRobot
 
     @Override
     public void recharge() {
-        System.out.println(getId() +" Recharging...");
+        System.out.println(getId() + " Recharging...");
     }
 
 }
