@@ -70,16 +70,16 @@ Primitive data types are built directly into Java.
 
 There are **8 primitive data types**.
 
-| Type | Size | Example | Purpose |
-|------|------|---------|---------|
-| byte | 1 byte | 100 | Small integers |
-| short | 2 bytes | 30000 | Medium integers |
-| int | 4 bytes | 250 | General-purpose integers |
-| long | 8 bytes | 5000000000L | Large integers |
-| float | 4 bytes | 3.14f | Decimal numbers |
-| double | 8 bytes | 3.14159 | More precise decimals |
-| char | 2 bytes | 'A' | Single character |
-| boolean | JVM-dependent storage, logically one of two values | true | Logical values |
+| Type    | Size                                               | Example     | Purpose                  |
+| ------- | -------------------------------------------------- | ----------- | ------------------------ |
+| byte    | 1 byte                                             | 100         | Small integers           |
+| short   | 2 bytes                                            | 30000       | Medium integers          |
+| int     | 4 bytes                                            | 250         | General-purpose integers |
+| long    | 8 bytes                                            | 5000000000L | Large integers           |
+| float   | 4 bytes                                            | 3.14f       | Decimal numbers          |
+| double  | 8 bytes                                            | 3.14159     | More precise decimals    |
+| char    | 2 bytes                                            | 'A'         | Single character         |
+| boolean | JVM-dependent storage, logically one of two values | true        | Logical values           |
 
 ---
 
@@ -236,13 +236,13 @@ We'll study this in detail during Object-Oriented Programming.
 
 # Choosing the Right Data Type
 
-| Situation | Recommended Type |
-|-----------|------------------|
-| Student age | int |
-| Bank balance | double |
-| First letter of a name | char |
-| Pass/Fail | boolean |
-| Person's name | String |
+| Situation              | Recommended Type |
+| ---------------------- | ---------------- |
+| Student age            | int              |
+| Bank balance           | double           |
+| First letter of a name | char             |
+| Pass/Fail              | boolean          |
+| Person's name          | String           |
 
 ---
 
