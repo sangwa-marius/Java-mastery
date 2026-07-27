@@ -10,11 +10,15 @@ public class SafeCalculator {
         try {
             System.out.print("Enter first number: ");
             double firstNum = input.nextDouble();
+
             System.out.print("Enter second number: ");
             double secondNum = input.nextDouble();
+
             System.out.println("1.Add\n2.Subtract\n3.Multiply\n4.Divide");
             System.out.print("Choose operation [1,2,3,4]: ");
+
             int choice = input.nextInt();
+
             double answer = 0;
             switch (choice) {
                 case 1:
