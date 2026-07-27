@@ -57,13 +57,13 @@ Operators
 
 Used to perform mathematical calculations.
 
-| Operator | Meaning | Example |
-|----------|---------|---------|
-| + | Addition | `5 + 3` |
-| - | Subtraction | `8 - 2` |
-| * | Multiplication | `4 * 6` |
-| / | Division | `20 / 5` |
-| % | Modulus (Remainder) | `10 % 3` |
+| Operator | Meaning             | Example  |
+| -------- | ------------------- | -------- |
+| +        | Addition            | `5 + 3`  |
+| -        | Subtraction         | `8 - 2`  |
+| \*       | Multiplication      | `4 * 6`  |
+| /        | Division            | `20 / 5` |
+| %        | Modulus (Remainder) | `10 % 3` |
 
 Example:
 
@@ -175,13 +175,13 @@ age += 5;
 
 Examples:
 
-| Operator | Equivalent |
-|----------|------------|
-| += | x = x + value |
-| -= | x = x - value |
-| *= | x = x * value |
-| /= | x = x / value |
-| %= | x = x % value |
+| Operator | Equivalent     |
+| -------- | -------------- |
+| +=       | x = x + value  |
+| -=       | x = x - value  |
+| \*=      | x = x \* value |
+| /=       | x = x / value  |
+| %=       | x = x % value  |
 
 Example:
 
@@ -205,14 +205,14 @@ Output:
 
 Comparison operators compare two values and always return a **boolean** (`true` or `false`).
 
-| Operator | Meaning |
-|----------|---------|
-| == | Equal to |
-| != | Not equal to |
-| > | Greater than |
-| < | Less than |
-| >= | Greater than or equal |
-| <= | Less than or equal |
+| Operator | Meaning               |
+| -------- | --------------------- |
+| ==       | Equal to              |
+| !=       | Not equal to          |
+| >        | Greater than          |
+| <        | Less than             |
+| >=       | Greater than or equal |
+| <=       | Less than or equal    |
 
 Example:
 
@@ -267,12 +267,12 @@ age >= 18 && salary >= 500
 
 Truth Table:
 
-| A | B | A && B |
-|---|---|---------|
-| true | true | true |
-| true | false | false |
-| false | true | false |
-| false | false | false |
+| A     | B     | A && B |
+| ----- | ----- | ------ |
+| true  | true  | true   |
+| true  | false | false  |
+| false | true  | false  |
+| false | false | false  |
 
 ---
 
@@ -288,11 +288,11 @@ marks >= 50 || specialPermission
 
 Truth Table:
 
-| A | B | A || B |
-|---|---|--------|
-| true | true | true |
-| true | false | true |
-| false | true | true |
+| A     | B     | A     |     | B   |
+| ----- | ----- | ----- | --- | --- |
+| true  | true  | true  |
+| true  | false | true  |
+| false | true  | true  |
 | false | false | false |
 
 ---
@@ -438,11 +438,11 @@ Final value of `x`:
 # Summary Table
 
 | Expression | Value Used | Variable After |
-|------------|------------|----------------|
-| ++x | New value | Incremented |
-| x++ | Old value | Incremented |
-| --x | New value | Decremented |
-| x-- | Old value | Decremented |
+| ---------- | ---------- | -------------- |
+| ++x        | New value  | Incremented    |
+| x++        | Old value  | Incremented    |
+| --x        | New value  | Decremented    |
+| x--        | Old value  | Decremented    |
 
 ---
 
@@ -554,27 +554,27 @@ Increment/Decrement:
 
 # Quick Revision (Cheat Sheet)
 
-| Operator | Description |
-|----------|-------------|
-| + | Addition |
-| - | Subtraction |
-| * | Multiplication |
-| / | Division |
-| % | Remainder |
-| = | Assignment |
-| += | Add and assign |
-| -= | Subtract and assign |
-| *= | Multiply and assign |
-| /= | Divide and assign |
-| %= | Modulus and assign |
-| == | Equal to |
-| != | Not equal |
-| > | Greater than |
-| < | Less than |
-| >= | Greater than or equal |
-| <= | Less than or equal |
-| && | Logical AND |
-| || | Logical OR |
-| ! | Logical NOT |
-| ++ | Increment |
-| -- | Decrement |
+| Operator | Description           |
+| -------- | --------------------- | --- | ---------- |
+| +        | Addition              |
+| -        | Subtraction           |
+| \*       | Multiplication        |
+| /        | Division              |
+| %        | Remainder             |
+| =        | Assignment            |
+| +=       | Add and assign        |
+| -=       | Subtract and assign   |
+| \*=      | Multiply and assign   |
+| /=       | Divide and assign     |
+| %=       | Modulus and assign    |
+| ==       | Equal to              |
+| !=       | Not equal             |
+| >        | Greater than          |
+| <        | Less than             |
+| >=       | Greater than or equal |
+| <=       | Less than or equal    |
+| &&       | Logical AND           |
+|          |                       |     | Logical OR |
+| !        | Logical NOT           |
+| ++       | Increment             |
+| --       | Decrement             |
