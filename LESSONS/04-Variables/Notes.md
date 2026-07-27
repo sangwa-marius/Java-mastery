@@ -109,12 +109,12 @@ int age = 21;
 # Common Data Types
 
 | Data Type | Example |
-|-----------|---------|
-| int | 25 |
-| double | 19.95 |
-| char | 'A' |
-| boolean | true |
-| String | "Java" |
+| --------- | ------- |
+| int       | 25      |
+| double    | 19.95   |
+| char      | 'A'     |
+| boolean   | true    |
+| String    | "Java"  |
 
 Example
 
