@@ -191,10 +191,10 @@ John Smith
 
 # Difference Between next() and nextLine()
 
-| next() | nextLine() |
-|---------|------------|
-| Reads one word | Reads the entire line |
-| Stops at whitespace | Stops only when Enter is pressed |
+| next()                 | nextLine()                            |
+| ---------------------- | ------------------------------------- |
+| Reads one word         | Reads the entire line                 |
+| Stops at whitespace    | Stops only when Enter is pressed      |
 | Suitable for usernames | Suitable for full names and addresses |
 
 Example:
@@ -503,18 +503,18 @@ Scanner is used in:
 
 # Quick Revision (Cheat Sheet)
 
-| Method | Reads |
-|---------|-------|
-| `nextInt()` | Integer |
-| `nextDouble()` | Double |
-| `nextFloat()` | Float |
-| `nextLong()` | Long |
-| `nextShort()` | Short |
-| `nextByte()` | Byte |
-| `nextBoolean()` | Boolean |
-| `next()` | One word |
-| `nextLine()` | Entire line |
-| `next().charAt(0)` | Character |
+| Method             | Reads       |
+| ------------------ | ----------- |
+| `nextInt()`        | Integer     |
+| `nextDouble()`     | Double      |
+| `nextFloat()`      | Float       |
+| `nextLong()`       | Long        |
+| `nextShort()`      | Short       |
+| `nextByte()`       | Byte        |
+| `nextBoolean()`    | Boolean     |
+| `next()`           | One word    |
+| `nextLine()`       | Entire line |
+| `next().charAt(0)` | Character   |
 
 ---
 
