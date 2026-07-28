@@ -59,11 +59,11 @@ Notice the **double quotes (" ")**.
 
 Comparison
 
-| char | String |
-|------|--------|
+| char                 | String                     |
+| -------------------- | -------------------------- |
 | Stores one character | Stores multiple characters |
-| Uses single quotes | Uses double quotes |
-| Primitive type | Reference type (Object) |
+| Uses single quotes   | Uses double quotes         |
+| Primitive type       | Reference type (Object)    |
 
 Examples
 
@@ -583,11 +583,11 @@ Unlike String, `StringBuilder` is **mutable**.
 
 # String vs StringBuilder
 
-| String | StringBuilder |
-|---------|---------------|
-| Immutable | Mutable |
-| Creates new objects when modified | Modifies the same object |
-| Best for fixed text | Best for frequently changing text |
+| String                            | StringBuilder                     |
+| --------------------------------- | --------------------------------- |
+| Immutable                         | Mutable                           |
+| Creates new objects when modified | Modifies the same object          |
+| Best for fixed text               | Best for frequently changing text |
 
 ---
 
@@ -699,7 +699,7 @@ let name = "Java";
 Comparison
 
 ```javascript
-name === "Java"
+name === "Java";
 ```
 
 Java requires `.equals()` because Strings are objects.
