@@ -173,14 +173,14 @@ Use nested `if` statements only when necessary to avoid making code difficult to
 
 # Comparison Operators
 
-| Operator | Meaning |
-|----------|---------|
-| `==` | Equal to |
-| `!=` | Not equal to |
-| `>` | Greater than |
-| `<` | Less than |
-| `>=` | Greater than or equal to |
-| `<=` | Less than or equal to |
+| Operator | Meaning                  |
+| -------- | ------------------------ |
+| `==`     | Equal to                 |
+| `!=`     | Not equal to             |
+| `>`      | Greater than             |
+| `<`      | Less than                |
+| `>=`     | Greater than or equal to |
+| `<=`     | Less than or equal to    |
 
 Example
 
@@ -551,7 +551,6 @@ JavaScript allows truthy and falsy values.
 let x = 5;
 
 if (x) {
-
 }
 ```
 
