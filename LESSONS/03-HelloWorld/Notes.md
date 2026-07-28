@@ -108,7 +108,7 @@ Rules:
 
 - Letters
 - Numbers
-- Underscore (_)
+- Underscore (\_)
 - Dollar sign ($)
 
 ❌ Cannot
@@ -429,14 +429,14 @@ public class Test {
 
 # Key Terms
 
-| Term | Meaning |
-|------|---------|
-| Class | Blueprint for creating objects |
-| Object | Instance of a class |
-| Method | A block of code that performs a task |
-| Statement | A single instruction in Java |
-| JVM | Runs Java programs |
-| Compiler | Converts source code into bytecode |
+| Term      | Meaning                              |
+| --------- | ------------------------------------ |
+| Class     | Blueprint for creating objects       |
+| Object    | Instance of a class                  |
+| Method    | A block of code that performs a task |
+| Statement | A single instruction in Java         |
+| JVM       | Runs Java programs                   |
+| Compiler  | Converts source code into bytecode   |
 
 ---
 
