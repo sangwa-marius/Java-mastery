@@ -46,12 +46,12 @@ Without loops, many real-world programs would be impossible or extremely repetit
 
 Java provides four looping mechanisms.
 
-| Loop | Purpose |
-|------|---------|
-| `while` | Repeat while a condition is true. |
-| `do...while` | Execute at least once before checking the condition. |
-| `for` | Repeat a known number of times. |
-| Enhanced `for` | Iterate through arrays and collections. |
+| Loop           | Purpose                                              |
+| -------------- | ---------------------------------------------------- |
+| `while`        | Repeat while a condition is true.                    |
+| `do...while`   | Execute at least once before checking the condition. |
+| `for`          | Repeat a known number of times.                      |
+| Enhanced `for` | Iterate through arrays and collections.              |
 
 ---
 
@@ -503,10 +503,10 @@ Output
 
 # break vs continue
 
-| break | continue |
-|--------|----------|
-| Ends the loop immediately | Skips only the current iteration |
-| Control leaves the loop | Control moves to the next iteration |
+| break                     | continue                            |
+| ------------------------- | ----------------------------------- |
+| Ends the loop immediately | Skips only the current iteration    |
+| Control leaves the loop   | Control moves to the next iteration |
 
 ---
 
@@ -754,11 +754,11 @@ As `n` grows larger, nested loops become much slower.
 
 # Choosing the Right Loop
 
-| Situation | Best Choice |
-|-----------|-------------|
-| Unknown repetitions | while |
-| Execute at least once | do...while |
-| Known repetitions | for |
+| Situation                   | Best Choice  |
+| --------------------------- | ------------ |
+| Unknown repetitions         | while        |
+| Execute at least once       | do...while   |
+| Known repetitions           | for          |
 | Traverse arrays/collections | Enhanced for |
 
 ---
@@ -857,9 +857,7 @@ for (int i = 0; i < 5; i++) {
 JavaScript
 
 ```javascript
-for (let i = 0; i < 5; i++) {
-
-}
+for (let i = 0; i < 5; i++) {}
 ```
 
 The major difference is Java's strong typing.
