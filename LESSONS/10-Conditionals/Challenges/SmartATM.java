@@ -84,10 +84,10 @@ Any other menu choice
 Invalid Option
 */
 
-
 import java.util.Scanner;
-public class SmartATM{
-    public static void main(String[] args){
+
+public class SmartATM {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         String correctUsername = "marius";
@@ -100,7 +100,7 @@ public class SmartATM{
         System.out.print("PIN: ");
         String PIN = input.next();
 
-        if ( !username.equals(correctUsername) || !PIN.equals(correctPIN)){
+        if (!username.equals(correctUsername) || !PIN.equals(correctPIN)) {
             System.out.println("Access Denied");
             input.close();
             return;
@@ -116,40 +116,40 @@ public class SmartATM{
         System.out.print("Enter your choice: ");
         String choice = input.next();
 
-        if(choice.equals("1")){
-            System.out.println("Current Balance: RWF "+balance);
-        }else if(choice.equals("2")){
+        if (choice.equals("1")) {
+            System.out.println("Current Balance: RWF " + balance);
+        } else if (choice.equals("2")) {
 
             System.out.print("Deposit Amount: ");
             double depositAmount = input.nextDouble();
 
-            if (depositAmount > 0){
+            if (depositAmount > 0) {
 
                 balance += depositAmount;
                 System.out.println("Deposit Successful");
-                System.out.println("New Balance: RWF " +balance);
+                System.out.println("New Balance: RWF " + balance);
 
-            }else{
+            } else {
                 System.out.println("Invalid Amount");
             }
-        }else if(choice.equals("3")){
+        } else if (choice.equals("3")) {
 
             System.out.print("Withdrawal Amount: ");
             double withdrawalAmount = input.nextDouble();
 
-            if (withdrawalAmount > 0 && withdrawalAmount < balance){
+            if (withdrawalAmount > 0 && withdrawalAmount < balance) {
 
-                balance -=withdrawalAmount;
+                balance -= withdrawalAmount;
                 System.out.println("Withdrawal Successful");
-                System.out.println("Remaining Balance: RWF "+balance);
+                System.out.println("Remaining Balance: RWF " + balance);
 
-            }else{
+            } else {
                 System.out.println("Invalid Withdrawal");
             }
 
-        }else if (choice.equals("4")){
+        } else if (choice.equals("4")) {
             System.out.println("Thank you for using Smart ATM");
-        }else{
+        } else {
             System.out.println("Invalid Option");
         }
 
