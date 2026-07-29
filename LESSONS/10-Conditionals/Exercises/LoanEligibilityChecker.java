@@ -21,8 +21,9 @@ Loan Rejected
 */
 
 import java.util.Scanner;
-public class LoanEligibilityChecker{
-    public static void main(String[] args){
+
+public class LoanEligibilityChecker {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         System.out.println();
@@ -35,14 +36,13 @@ public class LoanEligibilityChecker{
         System.out.print("Enter your monthly salary (RWF): ");
         double salary = input.nextDouble();
 
-        if (age >= 21 && salary >= 300000){
+        if (age >= 21 && salary >= 300000) {
             System.out.println("Loan Approved");
-        }else{
+        } else {
             System.out.println("Loan Rejected");
         }
 
         input.close();
-        
 
     }
 }
