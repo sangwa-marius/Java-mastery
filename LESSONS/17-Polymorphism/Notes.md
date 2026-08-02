@@ -463,14 +463,14 @@ TemperatureConverter.celsiusToFahrenheit(25);
 
 # 24. Abstract Class vs Interface
 
-| Abstract Class | Interface |
-|----------------|-----------|
-| Represents an identity | Represents a capability |
-| Uses `extends` | Uses `implements` |
-| Can have constructors | Cannot have constructors |
-| Can have instance fields | Constants only |
-| One parent only | Multiple interfaces allowed |
-| Shared state and behaviour | Behaviour contract |
+| Abstract Class             | Interface                   |
+| -------------------------- | --------------------------- |
+| Represents an identity     | Represents a capability     |
+| Uses `extends`             | Uses `implements`           |
+| Can have constructors      | Cannot have constructors    |
+| Can have instance fields   | Constants only              |
+| One parent only            | Multiple interfaces allowed |
+| Shared state and behaviour | Behaviour contract          |
 
 ---
 
@@ -599,19 +599,19 @@ Usually yes.
 
 # Key Terms
 
-| Term | Meaning |
-|------|---------|
-| Polymorphism | One reference, many object forms |
-| Upcasting | Child object assigned to a parent reference |
-| Downcasting | Parent reference cast to a child type |
-| Dynamic Method Dispatch | Runtime selection of overridden methods |
-| `instanceof` | Checks an object's type before casting |
-| Abstract Class | Cannot be instantiated; intended for inheritance |
-| Abstract Method | Method with no implementation |
-| Interface | A contract describing capabilities |
-| `implements` | Used when implementing an interface |
-| Default Method | Interface method with an implementation |
-| Static Interface Method | Utility method belonging to the interface |
+| Term                    | Meaning                                          |
+| ----------------------- | ------------------------------------------------ |
+| Polymorphism            | One reference, many object forms                 |
+| Upcasting               | Child object assigned to a parent reference      |
+| Downcasting             | Parent reference cast to a child type            |
+| Dynamic Method Dispatch | Runtime selection of overridden methods          |
+| `instanceof`            | Checks an object's type before casting           |
+| Abstract Class          | Cannot be instantiated; intended for inheritance |
+| Abstract Method         | Method with no implementation                    |
+| Interface               | A contract describing capabilities               |
+| `implements`            | Used when implementing an interface              |
+| Default Method          | Interface method with an implementation          |
+| Static Interface Method | Utility method belonging to the interface        |
 
 ---
 
