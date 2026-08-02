@@ -22,11 +22,11 @@ Example:
 
 Index
 
-0   1   2   3
+0 1 2 3
 
 Value
 
-10  20  30  40
+10 20 30 40
 
 Accessing:
 
@@ -53,13 +53,13 @@ int[] numbers = new int[5];
 
 Default values:
 
-| Type | Default |
-|------|---------|
-| int | 0 |
-| double | 0.0 |
-| boolean | false |
-| char | '\u0000' |
-| String | null |
+| Type    | Default  |
+| ------- | -------- |
+| int     | 0        |
+| double  | 0.0      |
+| boolean | false    |
+| char    | '\u0000' |
+| String  | null     |
 
 ---
 
