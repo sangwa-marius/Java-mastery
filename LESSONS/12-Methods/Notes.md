@@ -119,15 +119,15 @@ public static int add(int a, int b) {
 }
 ```
 
-| Part | Description |
-|------|-------------|
-| `public` | Access modifier |
-| `static` | Belongs to the class |
-| `int` | Return type |
-| `add` | Method name |
-| `(int a, int b)` | Parameters |
-| `{}` | Method body |
-| `return` | Sends a value back |
+| Part             | Description          |
+| ---------------- | -------------------- |
+| `public`         | Access modifier      |
+| `static`         | Belongs to the class |
+| `int`            | Return type          |
+| `add`            | Method name          |
+| `(int a, int b)` | Parameters           |
+| `{}`             | Method body          |
+| `return`         | Sends a value back   |
 
 ---
 
@@ -238,9 +238,9 @@ The actual value passed.
 greet("John");
 ```
 
-| Parameter | Argument |
-|-----------|----------|
-| Variable | Actual value |
+| Parameter            | Argument       |
+| -------------------- | -------------- |
+| Variable             | Actual value   |
 | In method definition | In method call |
 
 ---
@@ -641,17 +641,17 @@ Before writing a method, ask yourself:
 
 # Key Terms
 
-| Term | Meaning |
-|------|---------|
-| Method | Reusable block of code |
-| Parameter | Variable in method definition |
-| Argument | Actual value passed |
-| Return Type | Data type returned |
-| `void` | Returns nothing |
-| `return` | Sends a value back |
-| Scope | Where a variable exists |
-| Call Stack | Tracks active method calls |
-| Stack Trace | Method call history after an exception |
+| Term               | Meaning                                |
+| ------------------ | -------------------------------------- |
+| Method             | Reusable block of code                 |
+| Parameter          | Variable in method definition          |
+| Argument           | Actual value passed                    |
+| Return Type        | Data type returned                     |
+| `void`             | Returns nothing                        |
+| `return`           | Sends a value back                     |
+| Scope              | Where a variable exists                |
+| Call Stack         | Tracks active method calls             |
+| Stack Trace        | Method call history after an exception |
 | Method Overloading | Same method name, different parameters |
 
 ---
