@@ -400,14 +400,14 @@ This project demonstrated how multiple programming concepts work together to bui
 
 # Key Terms
 
-| Term | Meaning |
-|------|---------|
-| Multidimensional Array | An array whose elements are arrays. |
-| Matrix | Data arranged in rows and columns. |
-| Row | Horizontal collection of elements. |
-| Column | Vertical collection of elements. |
-| Nested Loop | A loop inside another loop. |
-| Jagged Array | A 2D array where rows can have different lengths. |
+| Term                   | Meaning                                           |
+| ---------------------- | ------------------------------------------------- |
+| Multidimensional Array | An array whose elements are arrays.               |
+| Matrix                 | Data arranged in rows and columns.                |
+| Row                    | Horizontal collection of elements.                |
+| Column                 | Vertical collection of elements.                  |
+| Nested Loop            | A loop inside another loop.                       |
+| Jagged Array           | A 2D array where rows can have different lengths. |
 
 ---
 
