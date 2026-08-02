@@ -323,24 +323,24 @@ A good rule:
 
 # Key Terms
 
-| Term | Meaning |
-|------|---------|
-| Class | Blueprint for objects |
-| Object | Instance of a class |
-| Instance | Another name for an object |
-| Field | Variable belonging to an object |
-| Method | Behavior of an object |
-| Constructor | Special method that initializes an object |
-| Overloading | Multiple methods/constructors with different parameters |
-| `this` | Reference to the current object |
-| Encapsulation | Hiding data behind methods |
-| Getter | Reads a field |
-| Setter | Modifies a field |
-| Validation | Prevents invalid data |
-| Static | Belongs to the class |
-| Composition | One object contains another object |
-| Has-a | Composition relationship |
-| Is-a | Inheritance relationship |
+| Term          | Meaning                                                 |
+| ------------- | ------------------------------------------------------- |
+| Class         | Blueprint for objects                                   |
+| Object        | Instance of a class                                     |
+| Instance      | Another name for an object                              |
+| Field         | Variable belonging to an object                         |
+| Method        | Behavior of an object                                   |
+| Constructor   | Special method that initializes an object               |
+| Overloading   | Multiple methods/constructors with different parameters |
+| `this`        | Reference to the current object                         |
+| Encapsulation | Hiding data behind methods                              |
+| Getter        | Reads a field                                           |
+| Setter        | Modifies a field                                        |
+| Validation    | Prevents invalid data                                   |
+| Static        | Belongs to the class                                    |
+| Composition   | One object contains another object                      |
+| Has-a         | Composition relationship                                |
+| Is-a          | Inheritance relationship                                |
 
 ---
 
