@@ -85,14 +85,14 @@ Examples:
 
 # 3. Common Runtime Exceptions
 
-| Exception | Cause |
-|-----------|-------|
-| ArithmeticException | Division by zero |
-| NullPointerException | Using a null reference |
-| ArrayIndexOutOfBoundsException | Invalid array index |
-| InputMismatchException | Wrong input type |
-| IllegalArgumentException | Invalid method argument |
-| IllegalStateException | Object is in an invalid state |
+| Exception                      | Cause                         |
+| ------------------------------ | ----------------------------- |
+| ArithmeticException            | Division by zero              |
+| NullPointerException           | Using a null reference        |
+| ArrayIndexOutOfBoundsException | Invalid array index           |
+| InputMismatchException         | Wrong input type              |
+| IllegalArgumentException       | Invalid method argument       |
+| IllegalStateException          | Object is in an invalid state |
 
 ---
 
@@ -320,11 +320,11 @@ Meaning:
 
 # 13. throw vs throws
 
-| throw | throws |
-|--------|---------|
+| throw                      | throws                       |
+| -------------------------- | ---------------------------- |
 | Throws an exception object | Declares possible exceptions |
-| Used inside a method | Used in method declaration |
-| Followed by an object | Followed by class names |
+| Used inside a method       | Used in method declaration   |
+| Followed by an object      | Followed by class names      |
 
 ---
 
@@ -644,25 +644,25 @@ catch(Exception e){
 
 # Key Terms
 
-| Term | Meaning |
-|------|---------|
-| Exception | Object representing an error |
-| Throwable | Root of Java's exception hierarchy |
-| Error | Serious JVM problem |
-| Exception | Recoverable program issue |
-| RuntimeException | Unchecked exception |
-| Checked Exception | Compiler-enforced exception |
-| Stack Trace | Sequence of method calls leading to an exception |
-| Stack Unwinding | Searching back through the call stack for a handler |
-| throw | Throw an exception |
-| throws | Declare possible exceptions |
-| try | Wrap risky code |
-| catch | Handle an exception |
-| finally | Code that always executes |
-| try-with-resources | Automatically closes resources |
-| Custom Exception | User-defined exception class |
-| Exception Chaining | Wrapping one exception inside another |
-| Exception Propagation | Exception moving up the call stack |
+| Term                  | Meaning                                             |
+| --------------------- | --------------------------------------------------- |
+| Exception             | Object representing an error                        |
+| Throwable             | Root of Java's exception hierarchy                  |
+| Error                 | Serious JVM problem                                 |
+| Exception             | Recoverable program issue                           |
+| RuntimeException      | Unchecked exception                                 |
+| Checked Exception     | Compiler-enforced exception                         |
+| Stack Trace           | Sequence of method calls leading to an exception    |
+| Stack Unwinding       | Searching back through the call stack for a handler |
+| throw                 | Throw an exception                                  |
+| throws                | Declare possible exceptions                         |
+| try                   | Wrap risky code                                     |
+| catch                 | Handle an exception                                 |
+| finally               | Code that always executes                           |
+| try-with-resources    | Automatically closes resources                      |
+| Custom Exception      | User-defined exception class                        |
+| Exception Chaining    | Wrapping one exception inside another               |
+| Exception Propagation | Exception moving up the call stack                  |
 
 ---
 
