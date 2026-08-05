@@ -1,7 +1,6 @@
 
-
 public class SeatsUnavailableException extends ReservationException {
-    public SeatsUnavailableException(String message){
+    public SeatsUnavailableException(String message) {
         super(message);
     }
 }

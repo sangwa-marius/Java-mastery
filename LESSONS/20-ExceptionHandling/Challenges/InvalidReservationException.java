@@ -1,7 +1,6 @@
 
-
-public class InvalidReservationException extends ReservationException{
-    public InvalidReservationException(String message){
+public class InvalidReservationException extends ReservationException {
+    public InvalidReservationException(String message) {
         super(message);
     }
 }
