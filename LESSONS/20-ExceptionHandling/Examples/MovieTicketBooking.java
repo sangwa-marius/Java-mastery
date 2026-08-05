@@ -1,33 +1,33 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
+
 public class MovieTicketBooking {
 
-
-    public static void bookTickets(int numberOfTickets){
-        if(numberOfTickets <=0){
+    public static void bookTickets(int numberOfTickets) {
+        if (numberOfTickets <= 0) {
             throw new IllegalArgumentException("The number of tickets must be greater than 0");
         }
 
-        if(numberOfTickets >10){
+        if (numberOfTickets > 10) {
             throw new IllegalArgumentException("The number of tickets must not exceed 10");
         }
     }
-    public static void main(String[] args){
+
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        try{
+        try {
             System.out.print("Enter the number of tickets: ");
             int numberOfTickets = input.nextInt();
             bookTickets(numberOfTickets);
             System.out.println("Booking confirmed");
 
-        }catch(InputMismatchException e){
+        } catch (InputMismatchException e) {
             System.out.println("Invalid input");
 
-        }catch(IllegalArgumentException e){
+        } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
         input.close();
-
 
     }
 }
