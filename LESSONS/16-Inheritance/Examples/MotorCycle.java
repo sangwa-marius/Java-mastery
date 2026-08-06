@@ -1,7 +1,7 @@
 public class MotorCycle extends Vehicle {
 
-    public void popWheelie(){
+    public void popWheelie() {
         System.out.println("PopWheelie method");
     }
-    
+
 }
