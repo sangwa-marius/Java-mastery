@@ -3,37 +3,37 @@ public class Media {
     protected String title;
     protected String year;
 
-    public String getTitle(){
+    public String getTitle() {
         return title;
     }
 
-    public String getYear(){
+    public String getYear() {
         return year;
     }
 
-    public void play(){
+    public void play() {
         System.out.println(title + " is playing");
     }
 
-    public void setTitle(String newTitle){
-        if(newTitle.isBlank()){
+    public void setTitle(String newTitle) {
+        if (newTitle.isBlank()) {
             System.out.println("The title can't be blank");
             return;
-        }else{
+        } else {
             title = newTitle;
         }
     }
 
-    public void setYear(String newYear){
-        if(newYear.isBlank()){
+    public void setYear(String newYear) {
+        if (newYear.isBlank()) {
             System.err.println("The year can't be blank");
             return;
-        }else{
+        } else {
             year = newYear;
         }
     }
 
-    public void displayInfo(){
+    public void displayInfo() {
         System.out.println();
         System.out.println("Title : " + title);
         System.out.println("Year  : " + year);
