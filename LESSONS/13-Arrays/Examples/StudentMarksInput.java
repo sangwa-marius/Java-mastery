@@ -51,10 +51,10 @@ public class StudentMarksInput {
 
         int scoresAboveAverage = 0;
 
-        for (int i =0; i < marks.length; i++){
+        for (int i = 0; i < marks.length; i++) {
 
-            if(marks[i] > averageMark){
-                scoresAboveAverage +=1;
+            if (marks[i] > averageMark) {
+                scoresAboveAverage += 1;
             }
         }
 
