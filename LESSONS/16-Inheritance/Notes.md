@@ -158,13 +158,13 @@ This works because `name` is `protected`.
 
 # 6. Private vs Protected
 
-| Modifier | Same Class | Subclass | Outside Class |
-|-----------|:----------:|:--------:|:-------------:|
-| private | ✅ | ❌ | ❌ |
-| protected | ✅ | ✅ | ❌* |
-| public | ✅ | ✅ | ✅ |
+| Modifier  | Same Class | Subclass | Outside Class |
+| --------- | :--------: | :------: | :-----------: |
+| private   |     ✅     |    ❌    |      ❌       |
+| protected |     ✅     |    ✅    |     ❌\*      |
+| public    |     ✅     |    ✅    |      ✅       |
 
-*Also accessible within the same package.
+\*Also accessible within the same package.
 
 Best practice:
 
@@ -530,13 +530,13 @@ A simple test:
 
 If you can naturally say:
 
-> "A ___ is a ___"
+> "A **_ is a _**"
 
 use inheritance.
 
 If you can naturally say:
 
-> "A ___ has a ___"
+> "A **_ has a _**"
 
 use composition.
 
@@ -557,21 +557,21 @@ use composition.
 
 # Key Terms
 
-| Term | Meaning |
-|------|---------|
-| Inheritance | Acquiring fields and methods from another class |
-| Superclass | Parent class |
-| Subclass | Child class |
-| extends | Creates an inheritance relationship |
-| protected | Accessible by subclasses |
-| super() | Calls the parent constructor |
-| super.method() | Calls the parent version of a method |
+| Term                 | Meaning                                               |
+| -------------------- | ----------------------------------------------------- |
+| Inheritance          | Acquiring fields and methods from another class       |
+| Superclass           | Parent class                                          |
+| Subclass             | Child class                                           |
+| extends              | Creates an inheritance relationship                   |
+| protected            | Accessible by subclasses                              |
+| super()              | Calls the parent constructor                          |
+| super.method()       | Calls the parent version of a method                  |
 | Constructor Chaining | Parent constructors execute before child constructors |
-| Overriding | Replacing an inherited method |
-| @Override | Indicates an overriding method |
-| final Method | Cannot be overridden |
-| final Class | Cannot be inherited |
-| Object | Root class of every Java class |
+| Overriding           | Replacing an inherited method                         |
+| @Override            | Indicates an overriding method                        |
+| final Method         | Cannot be overridden                                  |
+| final Class          | Cannot be inherited                                   |
+| Object               | Root class of every Java class                        |
 
 ---
 
